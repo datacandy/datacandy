@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>data candy</title>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.js">
+		</script>
+	</head>
+
+<body>
+		<h1>hallo Ben</h1>
+		
+		<script type="text/javascript">
+		var dataset = [ 5, 10, 15, 20, 25 ];
+
+
+			d3.select("body").selectAll("p")
+		    .data(dataset)
+		    .enter()
+		    .append("p")
+		    .text(function(d) { 
+                   return "I can count up to " + d;
+               })
+               .style("color", function(d) {
+                   if (d > 15) {   //Threshold of 15
+                       return "red";
+                   } else {
+                       return "black";
+                   }
+               });
+
+        </script>
+</body>
+</html>
