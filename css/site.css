@@ -1,0 +1,34 @@
+/* set the CSS */
+
+	body { 
+		font: 12px Arial;
+	}
+
+	#map {
+			  width: 600px;
+			  height: 400px;
+			}
+
+			svg {
+			  position: relative;
+			}
+
+			path {
+			  fill: red;
+			  fill-opacity: .3;
+			  stroke: #fff;
+			  stroke-width: 1.5px;
+			}
+
+			path:hover {
+			  fill: brown;
+			  fill-opacity: .7;
+			}
+
+/*	#map
+		{
+		width: 960px;
+  		height: 500px;
+		padding-left: 20px;
+	}*/
+
