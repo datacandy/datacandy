@@ -21,7 +21,7 @@
 { "type": "Feature", "properties": { "name": "Long Term Custodian Care Centre", "Latitude": 24.422800, "Longitude": 54.447937, "field_4": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 54.447937, 24.4228 ] ] } },
 { "type": "Feature", "properties": { "name": "Gulf Diagnostic Centre", "Latitude": 24.446681, "Longitude": 54.363802, "field_4": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 54.363802, 24.446681 ] ] } },
 { "type": "Feature", "properties": { "name": "National", "Latitude": 24.490147, "Longitude": 54.373054, "field_4": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 54.373054, 24.490147 ] ] } },
-{ "type": "Feature", "properties": { "name": "Provita International Medical Centre - Al Ain", "Latitude": 24.425374, "Longitude": 54.587071, "field_4": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 54.587071, 24.425374 ] ] } },
+{ "type": "Feature", "properties": { "name": "Provita International Medical Centre", "Latitude": 24.425374, "Longitude": 54.587071, "field_4": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 54.587071, 24.425374 ] ] } },
 { "type": "Feature", "properties": { "name": "Cambridge Long Term Medical And Rehabilitation Hospital", "Latitude": 24.350884, "Longitude": 54.636660, "field_4": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 54.63666, 24.350884 ] ] } },
 { "type": "Feature", "properties": { "name": "Middle East Specialised Medical Care", "Latitude": 24.462971, "Longitude": 54.383696, "field_4": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 54.383696, 24.462971 ] ] } }
 ]}
