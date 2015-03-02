@@ -1,34 +1,65 @@
 /* set the CSS */
 
-	body { 
-		font: 12px Arial;
-	}
+
+.container{
+	margin-left: 20px;
+}
 
 	#map {
-			  width: 600px;
-			  height: 400px;
-			}
+		padding-top: 30px;
+		height: 250px;
+		}
 
-			svg {
-			  position: relative;
-			}
+	#barchart{
+		padding-left: 40px;
+		padding-top: 30px;
+	}
 
-			path {
-			  fill: red;
-			  fill-opacity: .3;
-			  stroke: #fff;
-			  stroke-width: 1.5px;
-			}
 
-			path:hover {
-			  fill: brown;
-			  fill-opacity: .7;
-			}
+	svg {
+		position: relative;
+		}
 
-/*	#map
-		{
-		width: 960px;
-  		height: 500px;
-		padding-left: 20px;
-	}*/
+	path {
+		fill: green;
+		fill-opacity: .75;
+		stroke: #fff;
+		stroke-width: 1.5px;
+		}
 
+	.countries{
+		fill: #cdd;
+	}
+
+	.countries.Emirates{
+		fill: #ddc;
+	}
+
+	.country-boundary {
+	  fill: none;
+	  stroke: #777;
+	  stroke-dasharray: 2,2;
+	  stroke-linejoin: round;
+	}
+
+	.place,
+	.place-label {
+	fill: #444;
+	text-anchor: middle;
+	}
+
+	.countries-label {
+	  fill: #777;
+	  fill-opacity: .5;
+	  font-size: 20px;
+	  font-weight: 300;
+	  text-anchor: middle;
+	}
+
+.hospitals {
+	  fill: #777;
+	  fill-opacity: .5;
+	  font-size: 20px;
+	  font-weight: 300;
+	  text-anchor: middle;
+	}
