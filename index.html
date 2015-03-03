@@ -37,6 +37,7 @@
 
 //Abu Dhabi coordinates
 var map = L.map('map').setView([24.42, 54.52], 10)
+//amend the http address below to include your Mapbox credentials
     .addLayer(new L.tileLayer('https://{s}.tiles.mapbox.com/v4/{your-mapbox-id-here}/{z}/{x}/{y}.png?access_token=<access-token-here>'));
 
 var svg = d3.select(map.getPanes().overlayPane).append("svg"),
